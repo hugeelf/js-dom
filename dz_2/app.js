@@ -22,6 +22,7 @@ images.forEach((image) => {
 });
 
 const buttonArray = document.querySelectorAll(".pag-btn")
+
 for (let index = 0; index < images.length; index++) {
     buttonArray[index].addEventListener("click", ()=>{
         currentImg = index;
